@@ -16,18 +16,14 @@ OnFocus is a focus timer app for Android with nature sounds for productivity wor
 
 
 ## Screenshots
-| Feeds | Drawer |
+| Main | Forest |
 |:-:|:-:|
-| ![First](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png?raw=true) | ![Sec](/.github/assets/sec.png?raw=true) |
+| ![First](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png?raw=true) | ![Sec](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-37.png?raw=true) |
 
-| Repo | Profile |
+| Timer | Timer2 |
 |:-:|:-:|
-| ![Third](/.github/assets/third.png?raw=true) | ![Fourth](/.github/assets/fourth.png?raw=true) |
+| ![Third](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-09.png?raw=true) | ![Fourth](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-18.png?raw=true) |
 
-[<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png)
-[<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-37.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-37.png)
-[<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-09.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-09.png)
-[<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-18.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-18.png)
 
 ## Contribution
 If you have any ideas or issues, don't hesitate to reach out to me. Every contribution is welcome.
