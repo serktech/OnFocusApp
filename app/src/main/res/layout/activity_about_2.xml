@@ -1,0 +1,450 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent"
+    xmlns:fab="http://schemas.android.com/apk/res-auto">
+
+    <com.serktech.onfocus.ui.widget.MyScrollView
+        android:id="@+id/scrollView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clipChildren="false"
+        android:clipToPadding="false"
+        >
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <!-- Upper half of the background -->
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="400.0dp">
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/bg_about"/>
+                <ImageView
+                    android:id="@+id/iv_icon"
+                    android:layout_width="65.0dp"
+                    android:layout_height="65.0dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginTop="115.0dp"
+                    android:src="@mipmap/ic_launcher_app"/>
+                <TextView
+                    android:id="@+id/tv_appname"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="24.0sp"
+                    android:textColor="#deffffff"
+                    android:text="@string/app_name"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/iv_icon"
+                    android:layout_marginTop="15.0dp"/>
+                <TextView
+                    android:id="@+id/tv_oneword"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="14.0sp"
+                    android:textColor="#8bffffff"
+                    android:text="@string/one_word"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_appname" />
+                <Button
+                    android:id="@+id/bt_chat"
+                    android:layout_width="wrap_content"
+                    android:layout_height="36.0dp"
+                    android:textSize="14.0sp"
+                    android:textColor="@android:color/white"
+                    android:text="@string/focus_us"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@id/tv_oneword"
+                    android:layout_marginTop="22.0dp"
+                    android:background="@drawable/focus_button_bg"/>
+
+            </RelativeLayout>
+            <!-- Card view -->
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dp"
+                android:layout_marginEnd="8.0dp"
+                android:layout_marginStart="8.0dp"
+                android:layout_marginTop="-15.0dp">
+
+                <LinearLayout
+                    android:id="@+id/cv_about"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginStart="16.0dp"
+                        android:layout_marginTop="13.0dp"
+                        android:text="About"
+                        android:textColor="@color/colorAccent"
+                        android:textSize="14.0sp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp">
+
+                        <ImageView
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:layout_marginTop="8.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/note" />
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="15.0dp"
+                            android:orientation="vertical">
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:text="Version"
+                                android:textColor="#de000000"
+                                android:textSize="16.0sp" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginTop="5.0dp"
+                                android:text="1.0.0" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dp"
+                android:layout_marginEnd="8.0dp"
+                android:layout_marginStart="8.0dp">
+                <LinearLayout
+                    android:id="@+id/cv_create"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14.0sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginTop="13.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:text="Production"
+                        android:layout_marginStart="16.0dp"/>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/developer"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#de000000"
+                                android:text="Developer"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="5.0dp"
+                                android:text="Sergio Yarosh"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/design"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#de000000"
+                                android:text="Design"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+
+                            <TextView
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_alignParentEnd="true"
+                                android:layout_alignParentTop="true"
+                                android:layout_marginTop="8dp"
+                                android:text="SerkTech" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/lab"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#de000000"
+                                android:text="Company"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="5.0dp"
+                                android:text="SerkTech"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10.0dp"
+                android:layout_marginEnd="8.0dp"
+                android:layout_marginStart="8.0dp">
+                <LinearLayout
+                    android:id="@+id/cv_chatus"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="14.0sp"
+                        android:textColor="@color/colorAccent"
+                        android:layout_marginTop="13.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:text="Contact me"
+                        android:layout_marginStart="16.0dp"/>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/facebook"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#000000"
+                                android:text="Facebook"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="5.0dp"
+                                android:text="https://facebook.com/serktech"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/behance"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#000000"
+                                android:text="Behance"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="5.0dp"
+                                android:text="https://behance.net/serktech"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                    <LinearLayout
+                        android:layout_marginTop="8.0dp"
+                        android:layout_marginBottom="15.0dp"
+                        android:layout_marginLeft="20.0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+                        <ImageView
+                            android:layout_marginTop="8.0dp"
+                            android:layout_width="20.0dp"
+                            android:layout_height="20.0dp"
+                            android:background="@android:color/transparent"
+                            android:src="@drawable/mail"
+                            />
+                        <LinearLayout
+                            android:layout_marginLeft="15.0dp"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:orientation="vertical"
+                            >
+                            <TextView
+                                android:textColor="#000000"
+                                android:text="E-mail"
+                                android:textSize="16.0sp"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                            <TextView
+                                android:layout_marginTop="5.0dp"
+                                android:text="serktech@gmail.com"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content" />
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+        </LinearLayout>
+    </com.serktech.onfocus.ui.widget.MyScrollView>
+
+    <View
+        android:id="@+id/vw_about_status_bar_holder"
+        android:background="#00ff5a64"
+        android:layout_width="match_parent"
+        android:layout_height="0.0dip" />
+    <include
+        layout="@layout/about_tool_bar"/>
+    <View
+        android:id="@+id/toolbar_shadow"
+        android:background="@drawable/about_shadow"
+        android:layout_width="match_parent"
+        android:layout_height="4.0dip"
+        android:layout_below="@+id/toolbar" />
+
+
+    <FrameLayout
+        android:id="@+id/fl_interceptor"
+        android:descendantFocusability="blocksDescendants"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+    <com.github.clans.fab.FloatingActionMenu
+        android:id="@+id/float_bt"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingRight="10.0dp"
+        android:paddingLeft="10.0dp"
+        android:layout_above="@+id/fl_interceptor"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        fab:menu_icon="@drawable/fab_add"
+        fab:menu_colorNormal="#ffda4336"
+        fab:menu_colorPressed="#ff888888"
+        fab:menu_colorRipple="#99ffffff"
+        fab:menu_backgroundColor="#60000000">
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_gravity="end|bottom|center"
+            android:id="@+id/about_share"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:src="@drawable/share_white"
+            android:layout_marginEnd="8.0dip"
+            fab:fab_colorNormal="#ff03a9f4"
+            fab:fab_colorPressed="#ff03a9f4"
+            fab:fab_colorRipple="#ff03a9f4"
+            fab:fab_size="mini"
+            fab:fab_label="@string/share_to_friend" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_gravity="end|bottom|center"
+            android:id="@+id/about_behance"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:src="@drawable/facebook"
+            android:layout_marginEnd="8.0dip"
+            fab:fab_colorNormal="#ffff5722"
+            fab:fab_colorPressed="#ffff5722"
+            fab:fab_colorRipple="#ffff5722"
+            fab:fab_size="mini"
+            fab:fab_label="@string/follow_us_facebook" />
+
+        <com.github.clans.fab.FloatingActionButton
+            android:layout_gravity="end|bottom|center"
+            android:id="@+id/about_facebook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="8.0dip"
+            android:src="@drawable/behance"
+            android:layout_marginEnd="8.0dip"
+            fab:fab_colorNormal="#ff4caf50"
+            fab:fab_colorPressed="#ff4caf50"
+            fab:fab_colorRipple="#ff4caf50"
+            fab:fab_size="mini"
+            fab:fab_label="@string/follow_us_behance" />
+        </com.github.clans.fab.FloatingActionMenu>
+
+
+</RelativeLayout>

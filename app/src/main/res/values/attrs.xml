@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Custom circular progress bar, property settings-->
+    <declare-styleable name="CustomCircleProgress">
+        <!-- The default color of the circle -->
+        <attr name="progress_default_color" format="color"/>
+        <!-- Progress circle color -->
+        <attr name="progress_reached_color" format="color"/>
+        <!-- The height of the progress bar -->
+        <attr name="progress_reached_height" format="dimension"/>
+        <!-- No progress (default circle) border is high-->
+        <attr name="progress_default_height" format="dimension"/>
+        <!-- The radius of the circle -->
+        <attr name="circle_radius" format="dimension"/>
+    </declare-styleable>
+</resources>

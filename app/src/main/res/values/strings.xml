@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">OnFocus</string>
+    <string name="one_word">Concentration</string>
+    <string name="focus_us">Follow me</string>
+    <string name="share_to_friend">Share</string>
+    <string name="follow_us_facebook">Facebook</string>
+    <string name="follow_us_behance">Behance</string>
+
+   <string-array name="midText">
+       <item>Tap me</item>
+       <item>Classic</item>
+       <item>Forest</item>
+       <item>Ocean</item>
+       <item>Fireplace</item>
+   </string-array>
+
+    <string-array name="daily_sentence">
+        <item>Focus on your strengths, not your weaknesses.</item>
+        <item>Focus on your character, not your reputation.</item>
+        <item>Focus on your blessings, not your misfortunes.</item>
+        <item>Focus on your goals, not your fear.</item>
+        <item>Focus like a laser beam on your goals.</item>
+        <item>What you stay focused on will grow.</item>
+        <item>Our way of thinking creates good or bad outcomes.</item>
+        <item>Focusing is about saying No.</item>
+        <item>Always focus on the front windshield.</item>
+        <item>All that you are is all around you.</item>
+    </string-array>
+
+
+</resources>
