@@ -16,6 +16,14 @@ OnFocus is a focus timer app for Android with nature sounds for productivity wor
 
 
 ## Screenshots
+| Feeds | Drawer |
+|:-:|:-:|
+| ![First](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png?raw=true) | ![Sec](/.github/assets/sec.png?raw=true) |
+
+| Repo | Profile |
+|:-:|:-:|
+| ![Third](/.github/assets/third.png?raw=true) | ![Fourth](/.github/assets/fourth.png?raw=true) |
+
 [<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-19.png)
 [<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-37.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-00-37.png)
 [<img src="https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-09.png" width=250>](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/2017-12-11_21-01-09.png)
