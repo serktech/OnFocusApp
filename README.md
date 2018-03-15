@@ -1,5 +1,6 @@
-# OnFocus
+![Logo](https://github.com/m7grey/OnFocusApp/blob/master/screenshots/Onfocus1024.png?raw=true "Logo")
 
+# OnFocus
 
 OnFocus is a focus timer app for Android with nature sounds for productivity work or personal relaxation.
 
